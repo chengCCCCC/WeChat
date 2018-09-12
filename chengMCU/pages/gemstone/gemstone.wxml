@@ -1,0 +1,7 @@
+<!--pages/gemstone/gemstone.wxml-->
+<view class='container'>
+  <view class="message">
+    <image src='http://www.18csj.com/kfz.gif'></image>
+    <text class='message'>正在争夺宝石，敬请期待。。。</text>
+  </view>
+</view>

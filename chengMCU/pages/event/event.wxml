@@ -1,0 +1,7 @@
+<!--pages/event/event.wxml-->
+<view class='container'>
+  <view class="message">
+    <image src='http://www.18csj.com/kfz.gif'></image>
+    <text class='message'>正在回溯大事件，敬请期待。。。</text>
+  </view>
+</view>

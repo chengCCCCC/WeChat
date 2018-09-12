@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/main/main",
+    "pages/logs/logs",
+    "pages/hero/hero",
+    "pages/more/more",
+    "pages/gemstone/gemstone",
+    "pages/history/history",
+    "pages/event/event",
+    "pages/universe/universe"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#dd0000",
+    "navigationBarTitleText": "MCU",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {  
+    "color": "#a9b7b7",  
+    "selectedColor": "#11cd6e",  
+    "borderStyle": "black" ,
+    "list": [{  
+      "selectedIconPath": "material/images/main.png",  
+      "iconPath": "material/images/main.png",  
+      "pagePath": "pages/main/main",  
+      "text": "漫威宇宙"  
+    },{
+      "selectedIconPath": "material/images/hero.png",
+      "iconPath": "material/images/hero.png",
+      "pagePath": "pages/hero/hero",
+      "text": "漫威英雄"
+    },{  
+      "selectedIconPath": "material/images/more.png",  
+      "iconPath": "material/images/more.png",  
+      "pagePath": "pages/more/more",  
+      "text": "更多"
+    }
+    ]  
+  } 
+}

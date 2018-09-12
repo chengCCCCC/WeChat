@@ -1,0 +1,7 @@
+<!--pages/universe/universe.wxml-->
+<view class='container'>
+  <view class="message">
+    <image src='http://www.18csj.com/kfz.gif'></image>
+    <text class='message'>平行宇宙正在重建，敬请期待。。。</text>
+  </view>
+</view>

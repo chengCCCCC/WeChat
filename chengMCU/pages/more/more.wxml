@@ -1,0 +1,7 @@
+<!--pages/more/more.wxml-->
+<view class='container'>
+  <view class="message">
+    <image src='http://www.18csj.com/kfz.gif'></image>
+    <text class='message'>更多精彩正在开发中，敬请期待。。。</text>
+  </view>
+</view>

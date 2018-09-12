@@ -1,0 +1,7 @@
+<!--pages/history/history.wxml-->
+<view class='container'>
+  <view class="message">
+    <image src='http://www.18csj.com/kfz.gif'></image>
+    <text class='message'>历史沿革正在开发，敬请期待。。。</text>
+  </view>
+</view>

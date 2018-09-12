@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="index">
+  <view class="head">
+    <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1535714009827&di=0c0e4fb63139cacf5246b2d835846685&imgtype=0&src=http%3A%2F%2Ffile.digitaling.com%2FeImg%2Fcover%2F20141028%2F20141028170423_23014.jpg'></image>
+  </view>
+  <view class="body">
+    <view class="user">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
+      <block wx:else>
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="user-motto">{{motto1}}{{userInfo.nickName}}{{motto2}}</text>
+      </block>
+    </view>
+    <!-- <view class="section">
+      <video id='myvideo' class='videoclass' controls='{{false}}' src="{{src}}" autoplay="{{true}}" loop='{{true}}' objectFit='cover' custom-cache="{{false}}"></video>
+    </view> -->
+    <view class="usermotto">
+      <button class='jump_main' type='primary' bindtap="bindViewTap"> 开启小橙子MCU </button>
+    </view>
+  </view>
+  <view class='foot'>
+    <text class='copyright'>©2018 小橙子版权所有</text>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<!-- <view class='container'>
+  <view class="message">
+    <image src='http://www.18csj.com/kfz.gif'></image>
+    <text class='message'>首页正在开发中，敬请期待。。。</text>
+  </view>
+</view> -->
+<view class='body'>
+  <view class='demo1'>
+    <image class='image1' src='{{src1}}' bindtap='toHistory'></image>
+    <text class='text1'>历史沿革</text>
+  </view>
+  <view class='demo2'>
+    <image class='image2' src='{{src2}}' bindtap='toEvent'></image>
+    <text class='text2'>大事件</text>
+  </view>
+  <view class='demo3'>
+    <image class='image3' src='{{src3}}' bindtap='toUniverse'></image>
+    <text class='text3'>平行宇宙</text>
+  </view>
+  <view class='demo4'>
+    <image class='image4' src='{{src4}}' bindtap='toGemstone'></image>
+    <text class='text4'>无限宝石</text>
+  </view>
+</view>
